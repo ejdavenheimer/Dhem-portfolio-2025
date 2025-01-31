@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --font-titles: "Montserrat", "sans-serif";
+    --font-bodie: "Open Sans", "sans-serif";
+    --color-primary-blue: oklch(36.65% 0.0462 254.88);
+    --color-primary-green: oklch(42.81% 0.0461 133.76);
+    --color-accent-gray: oklch(51.6% 0.0224 72.34);
+    --color-accent-white: oklch(100% 0 0);
+    --color-caccent-green: oklch(65.63% 0.052 137.66);
+
+}
+
+body {
+    background-image: url('../assets/images/fondo.jpg');
+    /* Ruta a tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    min-height: 200vh;
+}
+
+.bg-header {
+    background-image: url('../assets/images/fondo2.jpg');
+    /* Ruta a tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    max-height: 200vh;
+}
